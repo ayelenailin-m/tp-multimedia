@@ -1,6 +1,6 @@
 const express = require("express");
-const productRoutes = require("./routes/productRoutes");
-const errorHandler = require("./middlewares/errorHandler");
+const productRoutes = require("./routes/product.routes.js");
+const errorHandler = require("./middlewares/error.handle.js");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const helmet = require("helmet");
